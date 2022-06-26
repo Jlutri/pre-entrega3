@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    .nav{
+        width: 90%;
+        background-color: rgb(0, 0, 0);
+        margin: 10px auto;
+        .ulnav{
+            list-style-type: none;
+            padding: 10px;
+            margin: 10px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: right;
+            .menu{
+                background-color: rgb(0, 0, 0);
+                color: white;
+                padding: 10px;
+                margin: 10px;
+                &:hover{
+                    background-color: chocolate;
+                    border-radius: 15%;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+.section1{
+    background-color: white;
+    display: flex;
+    .imgsection{
+        border-radius: 50%;
+        .imgtext{
+            margin: 10px auto;
+            padding: 100px;
+        }
+
+
+    }
+
+
+}
+.section2{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+    .imgsection2{
+        border-radius: 50%;
+        
+    }
+
+.item-a{
+    display: flex;
+    justify-content: space-around;
+    .img1{
+        height: 100px;
+        width: 100px;
+        }
+    }
+}
+
+footer{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    .divfooter{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

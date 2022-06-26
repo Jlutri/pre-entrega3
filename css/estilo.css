@@ -1,0 +1,57 @@
+body {
+  background-color: black; }
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center; }
+  header .nav {
+    width: 90%;
+    background-color: black;
+    margin: 10px auto; }
+    header .nav .ulnav {
+      list-style-type: none;
+      padding: 10px;
+      margin: 10px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right; }
+      header .nav .ulnav .menu {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 10px; }
+        header .nav .ulnav .menu:hover {
+          background-color: chocolate;
+          border-radius: 15%; }
+
+.section1 {
+  background-color: white;
+  display: flex; }
+  .section1 .imgsection {
+    border-radius: 50%; }
+    .section1 .imgsection .imgtext {
+      margin: 10px auto;
+      padding: 100px; }
+
+.section2 {
+  background-color: black;
+  color: white;
+  display: flex; }
+  .section2 .imgsection2 {
+    border-radius: 50%; }
+  .section2 .section3 {
+    background-color: white; }
+    .section2 .section3 .item-a {
+      display: flex;
+      justify-content: space-around; }
+      .section2 .section3 .item-a .img1 {
+        height: 100px;
+        width: 100px; }
+
+footer {
+  background-color: #131212;
+  color: white; }
+  footer .divfooter {
+    display: flex;
+    justify-content: space-between; }
